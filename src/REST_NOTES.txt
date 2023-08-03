@@ -1,0 +1,60 @@
+
+
+
+                        RESTAURANT LISTING APP
+
+                ---------------------------------------
+
+    1. Create a new application: npx create-react-app restaurant-listing-app
+    2. cd restaurant-listing-app
+    3. code .
+    4. Run the application: npm start
+    5. Clean the code 
+    6. Choose a Theme using bootswatch -https://bootswatch.com/ and import it into the index.js
+    7. Copy and paste fontawesome cdnjs into the index.html
+    8. Copy and paste google fonts into the index.css
+    9. Install react bootstrap  - npm install react-bootstrap bootstrap
+    10. Component Creation - 
+               -> Components 
+                  -> Header 
+                        Header.js
+                        Header.css
+    11.Backend server Creation
+    12. API Fetching - axios
+
+    AXIOS
+    ->Axios is a promise-based HTTP Client for node.js and the browser.
+    ->On the server-side it uses the native node.js http module,
+     while on the client (browser) it uses XMLHttpRequests.
+
+     features:
+     ->Make XMLHttpRequests from the browser
+     ->Make http requests from node.js
+     ->Supports the Promise API
+     ->Transform request and response data
+     ->Automatic JSON data handling in response
+     
+     Install 
+      npm i axios
+
+      useEffect
+      The useEffect Hook allows you to perform side effects in your components.
+
+      ->Path Setup
+            -React Router Dom  - npm i react-router-dom
+
+            ->Browser Router - Used to setup app routing 
+            ->Routes -> To hold more than one Route (Used to hold multiple components)
+            ->Route -> Used to setup a component Path
+
+      
+      useParams()  -React Hook
+      ->In our React app sometimes we want to access the parameters of the current route in 
+      this case useParams hook comes into action. 
+      ->The react-router-dom package has useParams hooks that let you access the 
+      parameters of the current route.
+
+
+      
+
+                   
